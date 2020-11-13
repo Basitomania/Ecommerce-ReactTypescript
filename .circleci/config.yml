@@ -13,7 +13,7 @@ jobs:
       - run: npm run build
       - aws-s3/sync:
           from: build
-          to: 's3://ecommerce-typescript'
+          to: 's3://ecommerce-typescript/'
           arguments: |
             --acl public-read
             --cache-control "max-age=86400"
