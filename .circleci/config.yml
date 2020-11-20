@@ -60,4 +60,7 @@ workflows:
   test:
     jobs:
       - test:
-
+          filters:
+            branches:
+              only: develop
+          context: aws-context
