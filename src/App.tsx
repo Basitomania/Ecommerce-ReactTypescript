@@ -11,9 +11,9 @@ const HatsPage = () => (
 );
 
 const App: React.FC = () => {
-  console.log('>>>', process.env.NODE_ENV)
-  console.log('>>>', process.env)
-  console.log('>>>', JSON.stringify(process.env))
+  // console.log('>>>', process.env.NODE_ENV)
+  // console.log('>>>', process.env)
+  // console.log('>>>', JSON.stringify(process.env))
 
   return (
     <div>
