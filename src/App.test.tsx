@@ -32,5 +32,5 @@ it("render with tittle name", () => {
     </MemoryRouter>
     , container)
   });
-  expect(container.textContent).toBe("HATSSHOP NOW")
+  expect(container.textContent).toBe("HATS SHOP NOW")
 });
