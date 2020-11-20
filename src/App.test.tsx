@@ -33,4 +33,4 @@ it("render with tittle name", () => {
     , container)
   });
   expect(container.textContent).toBe("HATSSHOP NOW")
-})
+});
